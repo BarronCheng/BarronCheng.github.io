@@ -1,0 +1,1016 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Homepage-Guanjie Cheng</title>
+<style>
+    body {
+        margin: 0;
+		background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+    }
+	
+	.card {
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 30px 35px;
+        margin: 30px auto;
+        max-width: 1250px;         
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        box-sizing: border-box;
+}
+	.card:first-of-type {
+    margin-top: 120px;  
+}
+
+
+    .profile-photo {
+        float: right;              
+        width: 180px;
+        margin-left: 25px;
+        border-radius: 6px;
+        border: 1px solid #e0e0e0;
+}
+
+    .zju-header {
+       background-color: #004B8D;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    height: 90px;
+    position: fixed;     
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    }
+
+    .zju-header-left {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        width: 320px;    
+    }
+
+    .zju-header-left img {
+        height: 90px;    
+		margin-left: 30px;
+
+    }
+
+    .zju-banner-text-cn {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .zju-banner-text-en {
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        line-height: 1.4;
+    }
+
+ 
+    .zju-header-center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+	.zju-header-right {
+    margin-left: auto;   
+}
+    .zju-header-right a {
+    margin-left: 32px;          
+    text-decoration: none;
+    font-size: 22px;           
+    font-weight: 500;          
+    color: #f0f0f0;            
+    letter-spacing: 0.5px;      
+}
+
+    .zju-header-right a.active {
+        color: #ffffff;
+    }
+
+    .zju-header-right a:hover {
+        text-decoration: underline;
+    }
+	.img-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .25s ease;
+    z-index: 9999;
+}
+	.view-all-link {
+    font-size:25px;
+    color:#004B8D;
+    text-decoration:none;
+}
+
+.view-all-link:hover {
+    text-decoration:underline;
+}
+
+
+.img-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+
+.img-overlay.active {
+    visibility: visible;
+    opacity: 1;
+}
+	.pub-item:hover,
+.ip-item:hover {
+    background-color: #f0f8ff; 
+    transition: background-color 0.2s ease;
+
+}
+</style>
+</head> 
+
+<body>
+
+     
+    <header class="zju-header">
+
+         
+        <div class="zju-header-left">
+             
+            <img src="logo.png" alt="Zhejiang University Logo">
+
+        </div>
+
+         
+        <div class="zju-header-center">
+             Guanjie Cheng
+        </div>
+
+         
+        <nav class="zju-header-right">
+    <a href="index.html" id="nav-home">Home</a>
+    <a href="pub.html" id="nav-pub">Publications</a>
+    <a href="inp.html" id="nav-ip">Intellectual Property</a>
+</nav>
+
+
+    </header>
+
+<div class="card">
+
+     
+    <img src="people.png" class="profile-photo" alt="Profile Photo">
+
+     <h1 style="font-size:40px; margin-bottom:8px;"> Guanjie Cheng (程冠杰)</h1>
+
+     
+    <p style="font-size:20px; line-height:1.7; margin-top:20px; margin-bottom:8px;">
+        Master’s Supervisor &amp; Research Fellow
+    </p>
+    <p style="font-size:20px; line-height:1.7; margin-top:0; margin-bottom:20px;">
+        School of Software Technology, Zhejiang University, China
+    </p>
+
+     
+    <p style="font-size:17px; line-height:1.5; margin:12px 0;">
+        I am a specially appointed researcher at the School of Software Technology, Zhejiang University.
+        I hold a Ph.D. in Computer Science from Zhejiang University and was a visiting Ph.D. scholar at
+        Nanyang Technological University, Singapore.
+        I have been honored with selections for the Yongjiang Talent Program and the Ningbo City Outstanding Talent Initiative.
+    </p>
+
+     
+    <p style="font-size:17px; line-height:1.5; margin:12px 0; text-align: justify;">
+        My research revolves around multi-agent systems, multi-modal data fusion, data security, and blockchain.
+        I have published more than 30 papers in high-quality journals and conferences and have filed over 20 invention patents.
+        Several of my research outcomes have been deployed at scale in industry, including at China Mobile and Bawutong.
+    </p>
+
+     
+    <p style="font-size:17px; line-height:1.5; margin:12px 0; text-align: justify;">
+        Our research group is part of <span style="color:#004B8D;">the Advanced Computing and Emerging Service Lab (ACES Lab)</span> at Zhejiang University.
+        Motivated students and partners with strong technical backgrounds are very welcome to contact me at:
+        <strong style="color:#004B8D;">chengguanjie@zju.edu.cn</strong>.
+    </p>
+
+     
+    <p style="font-size:17px; line-height:1.5; margin:12px 0; text-align: justify;">
+        <strong style="color:#004B8D;">Research Interests:</strong>
+        AIoT; Multi-agent collaboration; Edge computing; Data security and blockchain; Privacy protection.
+    </p>
+
+    <hr style="margin:25px 0;">
+
+     
+  <p style="font-size:20px; line-height:1.5; margin:12px 0;
+          display:flex; align-items:center; gap:40px;">
+
+     
+    <a href="mailto:chengguanjie@zju.edu.cn"
+       style="color:#004B8D; text-decoration:none;
+              display:flex; align-items:center; justify-content:center; gap:6px;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#004B8D"
+             xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
+            <path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 
+                     22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+        </svg>
+        <span>chengguanjie@zju.edu.cn</span>
+    </a>
+
+     
+    <a href="https://person.zju.edu.cn/chengguanjie#0" target="_blank"
+       style=" color:#004B8D; text-decoration:none;
+              display:flex; align-items:center; justify-content:center; gap:6px;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#004B8D"
+             xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
+            <path d="M12 3L2 12H5V20H10V15H14V20H19V12H22L12 3Z"/>
+        </svg>
+        <span>Homepage</span>
+    </a>
+
+     
+    <a href="https://scholar.google.com/citations?hl=en&user=xTw0l8QAAAAJ" 
+       target="_blank"
+       style=" color:#004B8D; text-decoration:none;
+              display:flex; align-items:center; justify-content:center; gap:6px;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#004B8D"
+             xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 
+                     10-10S17.52 2 12 2zm0 18c-1.85 0-3.55-.63-4.9-1.69C8.07 
+                     16.45 9.96 15.5 12 15.5c2.04 0 3.93.95 5.1 2.81A7.94 7.94 
+                     0 0 1 12 20zm0-7c-1.66 0-3-1.34-3-3s1.34-3 
+                     3-3 3 1.34 3 3-1.34 3-3 3z"/>
+        </svg>
+        <span>Google Scholar</span>
+    </a>
+
+     
+    <a href="https://github.com/guanjiech" target="_blank"
+       style=" color:#004B8D; text-decoration:none;
+              display:flex; align-items:center; justify-content:center; gap:6px;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="#004B8D"
+             xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
+            <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 
+                     2.87 8.17 6.84 9.49.5.09.66-.22.66-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1.01.07 
+                     1.54 1.04 1.54 1.04.9 1.54 2.36 1.1 2.94.84.09-.65.35-1.1.63-1.35-2.22-.25-4.56-1.11-4.56-4.95 
+                     0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 
+                     2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.72.11 
+                     2.53.33 1.9-1.29 2.74-1.02 2.74-1.02.55 1.38.2 
+                     2.4.1 2.65.64.7 1.03 1.59 1.03 2.69 
+                     0 3.85-2.35 4.7-4.58 4.95.36.31.68.92.68 1.86v2.76c0 .27.16.58.67.48A10.01 
+                     10.01 0 0 0 22 12c0-5.52-4.48-10-10-10z"/>
+        </svg>
+        <span>GitHub</span>
+    </a>
+
+</p>
+<style>
+
+    p a:hover span {
+        text-decoration: underline !important;
+    }
+</style>
+</div>
+	<div class="card">
+		<div style="display:flex; gap:40px;">
+
+     
+    <div style="flex:1;">
+        <h3 style="margin-top:0; margin-bottom:16px; font-size:25px;">Education &amp; Experience</h3>
+
+         
+        <div style="display:flex; align-items:flex-start; margin-bottom:22px;">
+            <img src="ZJU.png" alt="ZJU" 
+                 style="width:60px; height:60px; margin-right:16px;">
+            <div style="flex:1;">
+                  
+                        <div style="font-size:20px;">Zhejiang University</div>
+                        <div style="font-size:17px; color:#555;">
+                            School of Software Technology
+                        </div>
+					 <div style="display:flex; justify-content:space-between; align-items:center; margin-top:2px;">
+						 <span style="font-size:17px; color:#555;">
+                           Specially Appointed Research Fellow  
+                        </span>
+
+                            <span style="font-size:17px; color:#999; white-space:nowrap;">
+            Jan. 2024 – Present
+        </span>
+						</div>
+                </div>
+        </div>
+
+         
+        <div style="display:flex; align-items:flex-start; margin-bottom:22px;">
+             <img src="ZJU.png" alt="ZJU" 
+                 style="width:60px; height:60px; margin-right:16px;">
+            <div style="flex:1;">
+                  
+                        <div style="font-size:20px;">Zhejiang University</div>
+                        <div style="font-size:17px; color:#555;">
+                            College of Computer Science and Technology
+                        </div>
+					 <div style="display:flex; justify-content:space-between; align-items:center; margin-top:2px;">
+						 <span style="font-size:17px; color:#555;">
+                           Ph.D. Student  
+                        </span>
+
+                            <span style="font-size:17px; color:#999; white-space:nowrap;">
+            Sep. 2018 – Dec. 2023
+        </span>
+						</div>
+                </div>
+        </div>
+
+         
+        <div style="display:flex; align-items:flex-start; margin-bottom:22px;">
+            <img src="NAN.png" alt="SHU" 
+                 style="width:60px; height:60px; margin-right:16px;">
+            <div style="flex:1;">
+                  
+                        <div style="font-size:20px;">Nanyang Technological University, Singapore</div>
+                        <div style="font-size:17px; color:#555;">
+                            School of Computer Science and Engineering
+                        </div>
+					 <div style="display:flex; justify-content:space-between; align-items:center; margin-top:2px;">
+						 <span style="font-size:17px; color:#555;">
+                           Visiting Ph.D. Student  
+                        </span>
+
+                            <span style="font-size:17px; color:#999; white-space:nowrap;">
+            Dec. 2022 – Dec. 2023
+        </span>
+						</div>
+                </div>
+        </div>
+		<div style="display:flex; align-items:flex-start; margin-bottom:22px;">
+            <img src="XI.jpg" alt="SHUN" 
+                 style="width:60px; height:60px; margin-right:16px;">
+            <div style="flex:1;">
+                  
+                        <div style="font-size:20px;">Xidian University</div>
+                        <div style="font-size:17px; color:#555;">
+                            School of Computer Science and Technology
+                        </div>
+					 <div style="display:flex; justify-content:space-between; align-items:center; margin-top:2px;">
+						 <span style="font-size:17px; color:#555;">
+                            B.S. Student  
+                        </span>
+
+                            <span style="font-size:17px; color:#999; white-space:nowrap;">
+            Aug. 2014 – Jun. 2018
+        </span>
+						</div>
+                </div>
+
+        </div>
+    </div>
+
+     
+    <div style="flex:1;">
+        <h3 style="margin-top:0; margin-bottom:16px; font-size:25px;">Honors &amp; Awards</h3>
+
+        <ul style="list-style:none; padding:0; margin:0;">
+            <li style="display:flex; justify-content:space-between;  margin-bottom:10px; line-height:1.5;">
+                <span style="font-size:17px;display:flex; align-items:flex-start;"><span style="color:#004B8D; font-size:20px; margin-right:10px;">•</span>
+					Silver Award at the World Internet of Things Exposition for the project “New Technologies, New Applications, and New Models.”</span>
+                <span style="color:#999; margin-left:16px; white-space:nowrap;font-size:17px">2025</span>
+            </li>
+            <li style="display:flex; justify-content:space-between;  margin-bottom:10px; line-height:1.5;">
+                <span style="font-size:17px;display:flex; align-items:flex-start;"style="font-size:17px;"><span style="color:#004B8D; font-size:20px; margin-right:10px;">•</span>
+					Second Prize of the Science and Technology Progress Award, China Communications Society.</span>
+                <span style="color:#999; margin-left:16px; white-space:nowrap;font-size:17px">2025</span>
+            </li>
+            <li style="display:flex; justify-content:space-between;  margin-bottom:10px; line-height:1.5;">
+                <span style="font-size:17px;display:flex; align-items:flex-start;"><span style="color:#004B8D; font-size:20px; margin-right:10px;">•</span>
+					First Prize in the Service Computing Innovation Competition at the China Digital Service Conference.</span>
+                <span style="color:#999; margin-left:16px; white-space:nowrap;font-size:17px">2024</span>
+            </li>
+            <li style="display:flex; justify-content:space-between;  margin-bottom:10px; line-height:1.5;">
+                <span style="font-size:17px;display:flex; align-items:flex-start;"><span style="color:#004B8D; font-size:20px; margin-right:10px;">•</span>
+					Innovation Achievement Award (Key Software Technology) from the National Model Software Colleges Alliance.</span>
+                <span style="color:#999; margin-left:16px; white-space:nowrap; font-size:17px">2024</span>
+            </li>
+
+        </ul>
+    </div>
+</div>
+		
+</div>
+	
+<div class="card">
+
+     
+    <h3 style="margin-top:0; margin-bottom:16px; display:flex; align-items:center; gap:8px; font-size:25px">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="#004B8D"
+         xmlns="http://www.w3.org/2000/svg; flex-shrink:0;display:flex; align-items:center; justify-content:center;">
+        <path d="M3 10v4c0 1.1.9 2 2 2h1v3l4-3h4l5 3V7l-5 3H9L5 7v3H5c-1.1 0-2 .9-2 2z"/>
+    </svg>
+		Related News
+    </h3>
+
+     
+    <div style="display:flex;">
+
+         
+        <div style="width:70px; font-size:20px; font-weight:bold; color:#444;">
+            2025
+        </div>
+
+         
+        <div style="flex:1;">
+			
+            <div style="display:flex; justify-content:space-between; ">
+                <div style="display:flex; align-items:center; gap:6px; font-size:18px; line-height:1.5;">
+                    <span style="font-size:20px;display:flex; align-items:center;">💼</span>
+                    I have been invited to be a Session Chair for the ICSOC 2025.
+                </div>
+                <div style="color:#999; white-space:nowrap; font-size:18px;">Dec 1</div>
+            </div>
+             
+            
+
+             
+            <div style="display:flex; justify-content:space-between;">
+                <div style="display:flex; align-items:center; gap:6px; font-size:18px; line-height:1.5;">
+                    <span style="font-size:20px;display:flex; align-items:center;">🎉</span>
+                    Two papers were accepted by <strong style="color:#004B8D;">AAAI 2026</strong>(CCF-A).
+                </div>
+                <div style="color:#999; white-space:nowrap; font-size:18px;">Nov 8</div>
+            </div>
+
+             
+           <div style="display:flex; justify-content:space-between;">
+                <div style="display:flex; align-items:center; gap:6px; font-size:18px; line-height:1.5;">
+                    <span style="font-size:20px;display:flex; align-items:center;">🎉</span>
+                    One paper was accepted by <strong style="color:#004B8D;">TDSC 2025</strong>(CCF-A).
+                </div>
+                <div style="color:#999; white-space:nowrap; font-size:18px;">Oct 3</div>
+            </div>
+			
+			<div style="display:flex; justify-content:space-between; ">
+                <div style="display:flex; align-items:center; gap:6px; font-size:18px; line-height:1.5;">
+                    <span style="font-size:20px;display:flex; align-items:center;">💼</span>
+                     I have been invited to be a PC member for the WWW 2026.
+                </div>
+                <div style="color:#999; white-space:nowrap; font-size:18px;">Sep 1</div>
+            </div>
+
+             
+            <div style="display:flex; justify-content:space-between;">
+                <div style="display:flex; align-items:center; gap:6px; font-size:18px; line-height:1.5;">
+                    <span style="font-size:20px;display:flex; align-items:center;">🎉</span>
+                    One paper was accepted by <strong style="color:#004B8D;">SIGMOD 2026</strong>(CCF-A).
+                </div>
+                <div style="color:#999; white-space:nowrap; font-size:18px;">Aug 24</div>
+            </div>
+
+             
+            <div style="display:flex; justify-content:space-between;">
+                <div style="display:flex; align-items:center; gap:6px; font-size:18px; line-height:1.5;">
+                    <span style="font-size:20px;display:flex; align-items:center;">🎉</span>
+                    One paper was accepted by <strong style="color:#004B8D;">TSC 2025</strong>(CCF-A).
+                </div>
+                <div style="color:#999; white-space:nowrap; font-size:18px;">Aug 8</div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+	
+<div class="card">
+
+   
+    <div style="display:flex; align-items:center; gap:8px; margin-bottom:10px;">
+
+       
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="#004B8D"
+           xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 12c2.2091 0 4-1.7909 4-4s-1.7909-4-4-4-4 1.7909-4 4 1.7909 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+      </svg>
+
+      <span style="font-size:25px; font-weight:bold;">Social Services</span>
+    </div>
+
+  <div style="border-top:1px solid #e5e5e5; margin-bottom:10px;"></div>
+
+   
+  <ul style="list-style:none; padding:0; margin:0;">
+    <li style="display:flex; gap:10px; margin-bottom:8px; line-height:1.6;">
+		<span style="color:#004B8D; font-size:18px;">•</span>
+      <span style="font-size:17px;">
+        Serving as the <span style="color:#004B8D;"> Executive Director </span> of the Zhejiang University – Oak Grove Ventures Joint Laboratory on Blockchain and Service Computing, organizing and promoting industry–academia collaboration in blockchain and service computing.
+      </span>
+
+    </li>
+
+    <li style="display:flex; gap:10px; margin-bottom:8px; line-height:1.6;">
+		<span style="color:#004B8D; font-size:18px;">•</span>
+      <span style="font-size:17px;">
+        <span style="color:#004B8D;">Program Committee Member</span> for top-tier CCF-A international conferences, including AAAI, ACM MM, WWW, ECAI 2025, etc.
+      </span>
+
+    </li>
+
+    <li style="display:flex; gap:10px; margin-bottom:8px; line-height:1.6;">
+		<span style="color:#004B8D; font-size:18px;">•</span>
+      <span style="font-size:17px;">
+        <span style="color:#004B8D;">Youth Editorial Board Member</span> for journals such as BCRA, Journal of Communications, and Journal of Telecommunications Science.
+      </span>
+
+    </li>
+	      <li style="display:flex; gap:10px; margin-bottom:8px; line-height:1.6;">
+			  <span style="color:#004B8D; font-size:18px;">•</span>
+      <span style="font-size:17px;">
+        <span style="color:#004B8D;">Reviewer</span> for leading journals and conferences, including IEEE TMC, IEEE TSC, Journal of Electronics, and others.
+      </span>
+
+    </li>
+	      <li style="display:flex; gap:10px; margin-bottom:8px; line-height:1.6;">
+			  <span style="color:#004B8D; font-size:18px;">•</span>
+      <span style="font-size:17px;">
+        <span style="color:#004B8D;">Contributor</span> to expert reports such as Mobile Service Computing and Edge Computing: Models, Technologies and Applications, and co-author of 7 industry white papers under the 2012 Labs initiative.
+      </span>
+
+    </li>
+	      <li style="display:flex; gap:10px; margin-bottom:8px; line-height:1.6;">
+
+   
+  <span style="color:#004B8D; font-size:18px;">•</span>
+
+   
+  <span style="font-size:17px;">
+      Acting as <span style="color:#004B8D;">Tech Advisor</span> for various Web3 and 
+      blockchain-ecosystem projects, providing technical consulting for DePIN, AI, ZK, and 
+      decentralized communication systems, and actively participating in industry/academic 
+      conferences and standards development.
+  </span>
+
+</li>
+	
+  </ul>
+
+<div style="display:flex; align-items:center; gap:8px; margin-bottom:10px;">
+    <svg width="40" height="40" viewBox="0 0 24 24"
+         fill="none" stroke="#004B8D" stroke-width="2"
+         stroke-linecap="round" stroke-linejoin="round"
+         >
+      <circle cx="12" cy="12" r="10"></circle>
+      <path d="M2 12h20"></path>
+      <path d="M12 2a15 15 0 0 1 0 20"></path>
+      <path d="M12 2a15 15 0 0 0 0 20"></path>
+    </svg>
+
+    <span style="font-size:25px; font-weight:bold;"> International Standards</span>
+		</div>
+	
+	
+<div style="border-top:1px solid #e5e5e5; margin-bottom:10px;"></div>
+<ul style="list-style:none; padding:0; margin:0;">
+    <li style="display:flex; gap:10px; margin-bottom:8px; line-height:1.6;">
+        <span style="color:#004B8D; font-size:17px;">•</span>
+        <span style="font-size:17px;">
+             <span style="color:#004B8D;">IEEE P3840.</span> Standard for Technical Requirements of Privacy-Preserving Computation for VehicleRoad-Cloud Collaboration in Intelligent Transportation. Designated Representatives.
+        </span>
+    </li>
+
+    <li style="display:flex; gap:10px; margin-bottom:8px; line-height:1.6;">
+        <span style="color:#004B8D; font-size:17px;">•</span>
+        <span style="font-size:17px;">
+            <span style="color:#004B8D;">IEEE P3620.02.</span> Recommended Practice for Implementation and Evaluation of Blockchain-Based Laboratory Data Control and Information Management Systems. Designated Representative Alternate.
+        </span>
+    </li>
+</ul>
+
+</div>
+	
+	 
+<div class="card">
+
+   
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+      <div style="display:flex; align-items:center; gap:8px;">
+          <span style="
+            color:#004B8D;
+            font-size:30px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            line-height:1;
+        ">★</span>
+          <span style="font-size:25px; font-weight:bold;">Selected Publications</span>
+
+	  <a href="pub.html" class="view-all-link">
+    <strong>(view all <span style="font-size:25px;">&raquo;</span>)</strong>
+</a>
+	  </div>
+  </div>
+
+   
+  <div style="border-top:1px solid #e5e5e5;"></div>
+
+   
+	<div class="pub-item">
+  <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
+
+   
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+     
+    <img src="P1.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+   
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+     
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+      LSHFed: Robust and Communication-Efficient Federated Learning with Locally-Sensitive Hashing Gradient Mapping
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      <strong>Guanjie Cheng</strong>, Mengzhen Yang, Xinkui Zhao, Shuyi Yu, Tianyu Du, Yangyang Wu,
+      Mengying Zhu, Shuigang Deng
+    </div>
+
+     
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+      AAAI Conference on Artificial Intelligence (AAAI), 2026
+    </div>
+
+     
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+      Federated learning (FL) enables collaborative model training across distributed nodes without exposing raw data, but its decentralized nature makes it vulnerable in trust-deficient environments. Inference attacks may recover sensitive information from gradient updates, while poisoning attacks can degrade model performance or induce malicious behaviors. Existing defenses often suffer from high communication and computation costs, or limited detection precision. To address these issues, we propose LSHFed, a robust and communication-efficient FL framework that simultaneously enhances aggregation robustness and privacy preservation. At its core, LSHFed incorporates LSHGM, a novel gradient verification mechanism that projects high-dimensional gradients into compact binary representations via multi-hyperplane locally-sensitive hashing. This enables accurate detection and filtering of malicious gradients using only their irreversible hash forms, thus mitigating privacy leakage risks and substantially reducing transmission overhead. Extensive experiments demonstrate that LSHFed maintains high model performance even when up to 50% of participants are collusive adversaries while achieving up to a 1000x reduction in gradient verification communication compared to full-gradient methods.
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      <span style="font-weight:bold;">Keywords:</span>
+      Federated learning, Robust aggregation, Locally-sensitive hashing, Malicious gradient detection,
+      Privacy-preserving learning.
+    </div>
+
+     
+    <div>
+      <a href="https://arxiv.org/abs/2511.01296" style="color:#004B8D; text-decoration:none;">[Paper]</a>
+       
+    </div>
+
+  </div>
+</div>
+</div>
+   
+		<div class="pub-item">
+   <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
+
+   
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+     
+    <img src="P3.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+   
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+     
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+      Secure and Efficient Personalized Multi-Receiver Data Sharing with Cross-Domain Authentication for Internet of Vehicles
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      Taolong Su, <strong>Guanjie Cheng</strong>, Junqin Huang, Xinkui Zhao, Shuiguang Deng
+    </div>
+
+     
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+      IEEE Transactions on Dependable and Secure Computing (TDSC), 2025
+    </div>
+
+     
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+      The Internet of Vehicles (IoV) has the potential to greatly improve traffic efficiency and road safety through the real-time exchange of data between vehicles and transport infrastructures. While many schemes employ Certificateless Signcryption (CLSC) to ensure data confidentiality and provide authentication in IoV, existing methods are predominantly designed for single-sender/single-receiver or multi-sender/single-receiver configurations. There is a notable gap in the research addressing the personalized sharing of data with multiple specific users. This paper addresses the practical and challenging problem of personalized multi-receiver data sharing, where customized data is sent to each recipient while remaining confidential from others. Furthermore, the dynamic and heterogeneous nature of vehicles introduces significant challenges for authentication across diverse geographic domains. To address these issues, we propose a novel, lightweight personalized multi-receiver CLSC algorithm featuring cross-domain authentication, thereby enhancing its applicability across various IoV scenarios. Our scheme also reduces computational complexity by enabling aggregated unsigncryption. Additionally, we introduce a pseudonym generation mechanism to ensure the anonymity of participants' identities while maintaining traceability. Rigorous formal security analyses demonstrate that our scheme satisfies all specified security requirements. Furthermore, the experimental evaluations confirm the efficiency and practicality of our scheme.
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      <span style="font-weight:bold;">Keywords:</span>
+      IoV, Multi-receiver data sharing, Certificateless signcryption, Cross-domain authentication, Traceability
+    </div>
+
+     
+    <div>
+      <a href="https://ieeexplore.ieee.org/abstract/document/11198842" style="color:#004B8D; text-decoration:none;">[Paper]</a>
+       
+    </div>
+
+  </div>
+</div>
+</div>
+   
+			<div class="pub-item">
+    <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
+
+   
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+     
+    <img src="P2.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+   
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+     
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+      BPI: A Novel Efficient and Reliable Search Structure for Hybrid Storage Blockchain
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      Xinkui Zhao, Rengrong Xiong, <strong>Guanjie Cheng</strong>, Xinhao Jin, Shawn Shi, Xiubo Liang, Gongsheng Yuan, Xiaoye Miao, Jianwei Yin, Shuiguang Deng
+    </div>
+
+     
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+      ACM SIGMOD Conference (SIGMOD), 2025
+    </div>
+
+     
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+      Hybrid storage solutions have emerged as potent strategies to alleviate the data storage bottlenecks prevalent in blockchain systems. These solutions harness off-chain Storage Services Providers (SPs) in conjunction with Authenticated Data Structures (ADS) to ensure data integrity and accuracy. Despite these advancements, the reliance on centralized SPs raises concerns about query correctness. Although ADS can verify the existence of individual query results, they fall short of preventing SPs from omitting valid results.
+In this paper, we delineate the fundamental distinctions between data search in blockchains and traditional database systems. Drawing upon these insights, we introduce BPI, a lightweight framework that enables efficient keyword queries and maintenance with low overhead. We propose "Articulated Search", a query pattern specifically designed for blockchain environments that enhances search efficiency while significantly reducing costs during data user updates. Furthermore, BPI employs a suite of validation models to ensure the inclusion of all valid content in search results while maintaining low overhead.
+Extensive experimental evaluations demonstrate that the BPI framework achieves outstanding scalability and performance in keyword searches within blockchain, surpassing EthMB+ and state of the art search databases commonly used in mainstream hybrid storage blockchains (HSB).
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      <span style="font-weight:bold;">Keywords:</span>
+      Blockchain, Data storage, Articulated Search, Integrity verification
+    </div>
+
+     
+    <div>
+      <a href="https://arxiv.org/abs/2509.00480" style="color:#004B8D; text-decoration:none;">[Paper]</a>
+       
+    </div>
+
+  </div>
+		</div>
+		
+		
+</div>
+	<div style="
+    display:flex; 
+    justify-content:flex-end; 
+    padding:12px 0;
+    margin-top:10px;
+">
+    <a href="pub.html" class="view-all-link">
+       All publications
+       <span style="font-size:20px;">&raquo;</span>
+    </a>
+	</div>
+	
+	</div>
+	
+<div class="card">
+
+   
+  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+      <div style="display:flex; align-items:center; gap:8px;">
+          <span style="
+            color:#004B8D;
+            font-size:30px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            line-height:1;
+        ">★</span>
+          <span style="font-size:25px; font-weight:bold;">Intellectual Property</span>
+
+	  <a href="inp.html" class="view-all-link"><strong>
+   (view all <span style="font-size:25px;">&raquo;</span>)</strong>
+</a>
+	  </div>
+  </div>
+
+   
+  <div style="border-top:1px solid #e5e5e5;"></div>
+
+   
+		<div class="pub-item">
+  <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
+
+   
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+     
+    <img src="Z1.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+   
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+     
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+      Data storage method and related device
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      李波, 邓水光, 张翼, 秦臻, <strong>程冠杰</strong>, 严学强, 赵明宇, 习燕
+    </div>
+
+     
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+      欧洲专利，发明公开，EP4625882A1，2025
+    </div>
+
+     
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+     A data storage method and a related device are provided. The method includes: A first node first encrypts first data to obtain encrypted data, so that confidentiality of data can be effectively ensured. Then, a second node splits the encrypted data into P fragments. P third nodes store the P fragments, that is, one third node stores one fragment. The encrypted data may be recovered based on at least M fragments in the P fragments. Therefore, even if some nodes in the P third nodes are attacked, the encrypted data may still be recovered based on the at least M fragments in the P fragments, to effectively ensure integrity of stored data.
+    </div>
+
+     
+    <div>
+      <a href="https://patents.google.com/patent/EP4625882A1/en?oq=EP4625882A1" style="color:#004B8D; text-decoration:none;">[Patent]</a>
+       
+    </div>
+
+  </div>
+</div>
+</div>
+   
+				<div class="pub-item">
+   <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
+
+   
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+     
+    <img src="Z2.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+   
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+     
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+      Identity management method and apparatus
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      邓水光, <strong>程冠杰</strong>, 温盈盈, 严学强, 习燕, 李波, 王俊凡, 赵明宇
+    </div>
+
+     
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+      欧洲专利，发明公开，EP4625884A1，2025
+    </div>
+
+     
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+      An identity management method and apparatus are disclosed, and may be applied to a scenario with a large quantity of distributed communication nodes, for example, a vehicle-to-everything scenario. The method includes: A TA device determines a pseudonymous identity PID of a terminal device i, and sends a first parameter to the terminal device i, where the first parameter indicates the PID of the terminal device i, and the PID of the terminal device i is determined based on a real identity RID of the terminal device i. Based on this, the TA device may determine the PID for the terminal device, to protect the RID of the terminal device, in other words, protect privacy of the terminal device. In addition, the PID of the terminal device is associated with the RID of the terminal device, so that the TA device can determine the RID of the terminal device based on the PID of the terminal device, and can determine the real identity of the terminal device when the terminal device performs a malicious operation or an unauthorized operation. That is, the real identity of the terminal device can be obtained while privacy of the terminal device is protected. In other words, conditional privacy protection is implemented.
+    </div>
+
+
+
+     
+    <div>
+      <a href="https://patents.google.com/patent/EP4625884A1/en?oq=EP4625884A1" style="color:#004B8D; text-decoration:none;">[Patent]</a>
+       
+    </div>
+
+  </div>
+</div>
+</div>
+   
+				<div class="pub-item">	
+    <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
+
+   
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+     
+    <img src="Z3.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+   
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+     
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+      Dag job scheduling method and system
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      赵海亮, 邓水光, <strong>程冠杰</strong>, 尹建伟
+    </div>
+
+     
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+      美国专利, 发明公开, US20250231798A1，2025
+    </div>
+
+     
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+      HA DAG job scheduling method includes following steps when a progress state of a job is updated: acquiring native feature data of each of jobs; performing embedding feature vector extraction on the native feature data based on a graph convolution neural network, and generating state feature vectors based on an extraction result; inputting the state feature vectors into a first prediction network, and predicting scheduling probability of respective candidate tasks by the first prediction network to obtain scheduling priorities of the respective candidate tasks; and selecting allocation nodes for the candidate tasks sequentially in an order of the scheduling priorities from large to small based on the state feature vectors and generating a scheduling strategy based on a selection result. The scheduling strategy provided in the disclosure can improve efficiency globally and can also reduce caching overhead of intermediate data in a job execution process.
+    </div>
+
+
+     
+    <div>
+      <a href="https://patents.google.com/patent/US20250231798A1/en?oq=US20250231798A1" style="color:#004B8D; text-decoration:none;">[Patent]</a>
+       
+    </div>
+
+  </div>
+		
+	</div>
+		
+</div>
+	<div style="
+    display:flex; 
+    justify-content:flex-end; 
+    padding:12px 0;
+    margin-top:10px;
+">
+    <a href="inp.html" class="view-all-link">
+       All intellectual property
+       <span style="font-size:20px;">&raquo;</span>
+    </a>
+	</div>
+	
+	</div>
+	
+<div style="
+    max-width:1250px;
+    margin:0 auto 30px auto;  
+    padding:0 35px;         
+    font-size:15px;
+    color:#6c757d;
+    font-style:italic;
+	font-size:20px;
+">
+    Last updated: Nov 2025
+</div>
+
+
+
+</body>
+	<div id="imgView" class="img-overlay" onclick="hideImage()">
+    <img id="imgViewPic" src="">
+</div>
+	<script>
+function showImage(src) {
+    const overlay = document.getElementById("imgView");
+    const img = document.getElementById("imgViewPic");
+    img.src = src;
+    overlay.classList.add("active");
+}
+
+function hideImage() {
+    document.getElementById("imgView").classList.remove("active");
+}
+		const path = window.location.pathname;
+
+if (path.includes("pub")) {
+    document.getElementById("nav-pub").classList.add("active");
+} else if (path.includes("inp")) {
+    document.getElementById("nav-ip").classList.add("active");
+} else {
+    document.getElementById("nav-home").classList.add("active");
+}
+</script>
+</html>
