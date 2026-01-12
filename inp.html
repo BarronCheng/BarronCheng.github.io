@@ -170,6 +170,87 @@
     color: #ffffff;
     font-weight: bold;
 }
+.std-table-wrap{
+  overflow-x: auto;
+}
+
+.std-table{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.std-table th{
+  text-align: left;
+  padding: 12px 12px;
+  background: #f3f7fb;
+  color: #004B8D;
+  font-weight: 700;
+  border-bottom: 1px solid #e8eef6;
+  position: sticky;   /* 可选：横向滚动时表头更舒服 */
+  top: 0;
+  z-index: 1;
+
+}
+
+.std-table td{
+  padding: 12px 12px;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: top;
+  color: #333;
+  line-height: 1.55;
+}
+
+.std-table tbody tr:hover{
+  background-color: #f0f8ff;
+  transition: background-color 0.2s ease;
+}
+
+.std-link{
+  color: #004B8D;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.std-link:hover{
+  text-decoration: underline;
+}
+
+/* pill 标签（类型/阶段/角色） */
+.std-tag{
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  background: #e9f2ff;
+  color: #004B8D;
+  white-space: nowrap;
+}
+
+.std-chip{
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.std-chip.stage{
+  background: #eef6ff;
+  color: #004B8D;
+}
+
+.std-chip.role{
+  background: #f2f2f2;
+  color: #555;
+}
+
+.std-chip.role.secretary{
+  background: #fff3cd;
+  color: #7a5a00;
+}
 	
 </style>
 </head> 
@@ -198,6 +279,7 @@
   <aside class="year-nav">
     <div class="year-item active" data-target="year-2025">国际专利</div>
     <div class="year-item" data-target="year-2024">国内专利</div>
+	 <div class="year-item" data-target="year-std">国际标准</div>
     <div class="year-item" data-target="year-2023">软件著作权</div>
   </aside>
 
@@ -2131,7 +2213,149 @@
       
 
 	</div>
-	
+<h2 id="year-std" class="year-title" style="
+  font-size:30px; 
+  margin-top:40px; 
+  margin-bottom:5px;
+  max-width:1250px; 
+  margin-left:auto; 
+  margin-right:auto;
+  padding-left:35px;   
+">
+  国际标准
+</h2>
+
+<div class="card">
+  <div class="std-table-wrap">
+    <table class="std-table">
+      <thead>
+        <tr>
+          <th style="width:120px;">类型</th>
+          <th style="width:140px;">编号</th>
+          <th>标准名称</th>
+          <th style="width:90px;">阶段</th>
+          <th style="width:110px;">角色</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">ISO/TC 69/WG 3</a></td>
+          <td>Statistical interpretation of data</td>
+          <td><span class="std-chip stage">起草</span></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">ISO/TC 69/WG 12</a></td>
+          <td>Big data analytics</td>
+          <td><span class="std-chip stage">起草</span></td>
+			<td></td>
+        </tr>
+		 
+
+		  <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3840 WG</a></td>
+          <td>Standard for Technical Requirements of Privacy-Preserving Computation for Vehicle-Road-Cloud Collaboration in Intelligent Transportation</td>
+          <td><span class="std-chip stage">起草</span></td>
+	      <td><span class="std-chip role secretary">Secretary</span></td>
+			  <td></td>
+        </tr> 
+		  <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3849 WG</a></td>
+          <td>Standard for Requirements of Blockchain-based Trusted Data Circulation for the Industrial Internet of Things (IIoT)</td>
+          <td><span class="std-chip stage">起草</span></td>
+			  <td></td>
+        </tr> 
+		 
+		 		  <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3241.06</a></td>
+          <td>Standard for Carbon Footprint Data Collection Based on Blockchain </td>
+          <td><span class="std-chip stage">起草</span></td>
+					  <td></td>
+          
+        </tr>
+		 
+		   <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3260.02</a></td>
+          <td>Recommended Practice for Implementation and Evaluation of Blockchain-Based Laboratory Data Control and Information Management Systems </td>
+          <td><span class="std-chip stage">起草</span></td>
+			   <td></td>
+        </tr> 
+		  <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3260.03</a></td>
+          <td>Standard for Construction and Testing of Blockchain-Based Laboratory Data Control and Information Management Systems </td>
+          <td><span class="std-chip stage">起草</span></td>
+			  <td></td>
+        </tr> 
+		
+		 <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3759</a></td>
+          <td>数字信任服务术语定义及参考框架</td>
+          <td><span class="std-chip stage">起草</span></td>
+			 <td></td>
+        </tr> 
+		  <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3760</a></td>
+          <td>基于可信数字身份的数字信任服务技术要求</td>
+          <td><span class="std-chip stage">起草</span></td>
+			  <td></td>
+        </tr> 
+		    <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3763</a></td>
+          <td>基于可信身份的多智能体协作网络技术要求</td>
+          <td><span class="std-chip stage">起草</span></td>
+				<td></td>
+        </tr> 
+		  <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3764</a></td>
+          <td>数字信任基于可信身份的星地融合网络参考框架</td>
+          <td><span class="std-chip stage">起草</span></td>
+			  <td></td>
+        </tr> 
+		  
+		  <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3824</a></td>
+          <td>基于区块链的数字内容管理平台参考框架标准</td>
+          <td><span class="std-chip stage">起草</span></td>
+			  <td></td>
+        </tr> 
+		  <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3825</a></td>
+          <td>基于区块链的电子可转让记录技术要求标准</td>
+          <td><span class="std-chip stage">起草</span></td>
+			  <td></td>
+        </tr>
+		  <tr>
+          <td><span class="std-tag">国际标准</span></td>
+          <td><a class="std-link" href="https://standards.ieee.org/" target="_blank" rel="noopener">IEEE P3828</a></td>
+          <td>产品数字护照标准</td>
+          <td><span class="std-chip stage">起草</span></td>
+			  <td></td>
+        </tr> 
+        
+      </tbody>
+    </table>
+  </div>
+</div>	
+	  
+	  
+	  
+	  
+	  
 		<h2 id="year-2023" class="year-title" style="
     font-size:30px; 
     margin-top:40px; 
@@ -2302,6 +2526,7 @@ if (path.includes("pub")) {
 </script>
 	</body>
 </html>
+
 
 
 
