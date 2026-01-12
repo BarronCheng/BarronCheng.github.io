@@ -452,6 +452,50 @@
 		
 	</div>
 </div>
+	<div class="pub-item">	
+    <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
+
+      
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+        
+    <img src="Z33.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+      
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+        
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+     一种基于CXL内存架构的多节点高性能数据共享索引方法 
+    </div>
+
+        
+    <div style="margin-bottom:2px;">
+          赵新奎, 杨牧宇, 尹建伟, 邓水光, <strong>程冠杰</strong>, 智晨, 张旭鸿                              
+    </div>
+
+        
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+      已授权, CN202411447448.8, 2025.
+    </div>
+
+        
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+    本发明公开了一种基于CXL内存架构的多节点高性能数据共享索引方法，本发明中主服务器节点用于构建CXL数据索引区和数据存储区。各服务器节点连接CXL内存设备后，通过NUMA绑定方式将CXL内存设备挂载到服务器节点，并指定共享区域，实现多节点对CXL物理内存数据的共享访问。连接到CXL内存后，主服务器节点构建CXL数据索引区和共享存储区，并通过哈希索引表支持多节点的数据存储和查询。查询请求时，通过哈希函数定位数据在哈希表中的位置，并在数据哈希索引表中进行查询和匹配，最终定位数据所在内存区域。找到数据后，服务器节点将数据从CXL内存加载到本地内存中使用，实现了跨服务器节点的数据共享。
+    </div>
+
+
+        
+    <div>
+      <a href="https://www.patentguru.com/cn/search?q=CN119473650A" style="color:#004B8D; text-decoration:none;">[Patent]</a>
+          
+    </div>
+
+  </div>
+		
+	</div>
 <div class="pub-item">	
     <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
 
@@ -1670,50 +1714,7 @@
 		
 	</div>
 </div>
-	<div class="pub-item">	
-    <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
 
-      
-  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
-        
-    <img src="Z33.png" alt="" 
-     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
-     onclick="showImage(this.src)">
-  </div>
-
-      
-  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
-
-        
-    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
-     一种基于CXL内存架构的多节点高性能数据共享索引方法 
-    </div>
-
-        
-    <div style="margin-bottom:2px;">
-          赵新奎, 杨牧宇, 尹建伟, 邓水光, <strong>程冠杰</strong>, 智晨, 张旭鸿                              
-    </div>
-
-        
-    <div style="font-style:italic; color:#666; margin-bottom:4px;">
-      发明公开, CN202411447448.8, 2025.
-    </div>
-
-        
-    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
-    本发明公开了一种基于CXL内存架构的多节点高性能数据共享索引方法，本发明中主服务器节点用于构建CXL数据索引区和数据存储区。各服务器节点连接CXL内存设备后，通过NUMA绑定方式将CXL内存设备挂载到服务器节点，并指定共享区域，实现多节点对CXL物理内存数据的共享访问。连接到CXL内存后，主服务器节点构建CXL数据索引区和共享存储区，并通过哈希索引表支持多节点的数据存储和查询。查询请求时，通过哈希函数定位数据在哈希表中的位置，并在数据哈希索引表中进行查询和匹配，最终定位数据所在内存区域。找到数据后，服务器节点将数据从CXL内存加载到本地内存中使用，实现了跨服务器节点的数据共享。
-    </div>
-
-
-        
-    <div>
-      <a href="https://www.patentguru.com/cn/search?q=CN119473650A" style="color:#004B8D; text-decoration:none;">[Patent]</a>
-          
-    </div>
-
-  </div>
-		
-	</div>
 </div>
 	<div class="pub-item">	
     <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
@@ -2254,6 +2255,7 @@ if (path.includes("pub")) {
 </script>
 	</body>
 </html>
+
 
 
 
