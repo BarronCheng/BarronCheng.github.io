@@ -214,7 +214,8 @@
 <div class="pub-layout">
    
   <aside class="year-nav">
-    <div class="year-item active" data-target="year-2025">2025</div>
+    <div class="year-item active" data-target="year-2025">2026</div>
+	<div class="year-item" data-target="year-2024">2025</div>
     <div class="year-item" data-target="year-2024">2024</div>
     <div class="year-item" data-target="year-2023">2023</div>
     <div class="year-item" data-target="year-2022">2022</div>
@@ -223,6 +224,126 @@
 
    
   <main class="pub-main">
+<h2 id="year-2025" class="year-title" style="
+    font-size:40px; 
+    margin-top:5px; 
+    margin-bottom:5px;
+    max-width:1250px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding-left:35px;   
+">
+    2026
+</h2>
+
+<div class="card">
+
+
+   
+	<div class="pub-item" id="pub-tc-1">
+  <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
+
+   
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+     
+    <img src="S1.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+   
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+     
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+      Swarm: Efficient Logical Memory Disaggregation With Shared CXL Memory
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      Chen Chen, Xinkui Zhao, <strong>Guanjie Cheng</strong>, Yueshen Xu, Shuigang Deng, Jianwei Yin
+    </div>
+
+     
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+       IEEE Transactions on Computers (TC), 2026
+    </div>
+
+     
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+    Memory disaggregation has become a research trend in data centers. Existing studies fall into two paths: Network-based logical memory disaggregation (LMD) and Compute Express Link (CXL)-based physical memory disaggregation (PMD). However, LMD suffers from network overhead, while PMD incurs expensive hardware costs and lacks flexibility. This paper advocates for building LMD systems on shared CXL memory, taking advantage of its low latency and cache-coherent memory access. However, shared CXL memory has severe scalability issues due to its strict coherence model. This paper introduces Swarm, an efficient LMP system built on shared CXL memory. Swarm divides shared CXL memory into small cacheable memory and large non-cacheable memory. Hardware only needs to maintain coherence for cacheable memory, while software handles coherence for non-cacheable memory, thereby enabling all CXL memory to be shared. Then, Swarm implements cross-node RPC and dynamic global memory allocation on shared CXL memory to improve performance and memory utilization. Swarm also proposes distributed computing offloading to fully leverage compute power on memory nodes for acceleration. Our evaluation shows that Swarm not only improves the throughput (e.g., by 3.6× and 1.8×) compared with representative network-based LMD system, AIFM and CXL-based PMD system when computing offloading is enabled but also achieves an advantage in TCO.
+	
+	</div>
+
+     
+    <div style="margin-bottom:2px;">
+      <span style="font-weight:bold;">Keywords:</span>
+    Memory disaggregation, Compute express link, Distributed shared memory, Runtime system
+    </div>
+
+     
+    <div>
+      <a href="https://ieeexplore.ieee.org/abstract/document/11313797/authors#authors" style="color:#004B8D; text-decoration:none;">[Paper]</a>
+       
+    </div>
+
+  </div>
+</div>
+</div>
+
+
+	<div class="pub-item" id="pub-cvpr-1">
+  <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
+
+   
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+     
+    <img src="S2.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+   
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+     
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+      DRAMA: Next-Gen Dynamic Orchestration for Resilient Multi-Agent Ecosystems in Flux
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      <strong>Guanjie Cheng</strong>, Mengzhen Yang, Xinkui Zhao, Shuyi Yu, Tianyu Du, Yangyang Wu,
+      Mengying Zhu, Shuigang Deng
+    </div>
+
+     
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+      IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2026
+    </div>
+
+     
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+    Embodied Multi-Agent Systems (EMAS) have proven highly effective in addressing complex tasks through coordinated collaboration among heterogeneous agents. However, real-world environments and task specifications are inherently dynamic, exhibiting frequent changes, uncertainty, and variability. Despite these characteristics, most existing EMAS frameworks employ static architectures with fixed agent capabilities and rigid task allocation strategies, which substantially constrain their adaptability to evolving conditions. This inflexibility presents significant challenges to maintaining robust and efficient multi-agent cooperation in dynamic and unpredictable settings.
+	To address these limitations, we propose DRAMA—DRAMA: Next-Gen Dynamic ORchestrAtion for Resilient Multi-Agent Ecosystems tailored for rapidly changing environments. DRAMA adopts a multilayer architecture that incorporates three principal mechanisms: (i) adaptive scheduling via an affinity-driven mechanism, (ii) fault-tolerant continuity through hierarchical trust-chain task takeover, and (iii) collective spatial intelligence that consolidates distributed observations for predictive reasoning. Together, these components enable event-triggered rescheduling and decentralized fault recovery, ensuring uninterrupted task execution amid agent arrivals, dropouts, or recoveries. Extensive experiments in the embodied VirtualHome-Social environment demonstrate that DRAMA achieves a 7% improvement in runtime efficiency, and a 10% increase in throughput compared with state-of-the-art baselines, while maintaining superior stability and robustness under dynamic agent populations.
+	</div>
+
+     
+
+
+     
+    <div>
+      <a href="https://BaarronCheng.github.io/BaarronCheng/paper.pdf" style="color:#004B8D; text-decoration:none;">[Paper]</a>
+       
+    </div>
+
+  </div>
+</div>
+</div>
+	
+
+</div>
+	  
 <h2 id="year-2025" class="year-title" style="
     font-size:40px; 
     margin-top:5px; 
