@@ -2274,7 +2274,49 @@
 	</div>
 </div>
 
+      <div class="pub-item">	
+    <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
+
       
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+        
+    <img src="K2.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+      
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+        
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+       基于计划和响应双复用的多智能体协作加速系 V1.0
+    </div>
+
+        
+    <div style="margin-bottom:2px;">
+      <strong>程冠杰</strong>, 杨孟臻, 王睿昊, 钟冬松, 赵新奎, 邓水光
+    </div>
+
+        
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+      原始取得, 全部权利, 2025SR2533819, 2025.
+    </div>
+
+        
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+   基于计划和响应双复用的多智能体协作加速系统是一套面向任务自动化与复用的智能调度引擎。系统将自然语言输入经过意图解析、历史任务检索、复用决策与多智能体系统计划执行等环节串联，形成“意图识别→文本向量化与相似度判断模块→复用/生成计划→多智能体系统执行并产出响应”的闭环流水线。系统由Bert-base意图识别模块、M3e-small文本向量化与相似度判断模块、基于AutoGen的多智能体系统及其计划响应双复用模块、任务/响应数据库等若干组件组成。系统既支持本地模型推理与本地缓存，也可在需要时调用云端大模型或远程服务完成复杂推理任务，从而兼顾响应速度、成本与隐私保护。系统在接收到用户请求后将首先运行意图识别与槽位抽取；以意图与槽位为查询构建语义向量并查询向量库获取历史相似任务；由复用决策器在可配置阈值与策略下选择（直接复用历史响应/复用历史计划执行/重新生成计划）；最终由多智能体系统执行计划、调用工具并产出响应。
+	
+	</div>
+
+
+        
+   
+
+  </div>
+		
+	</div>
+</div>
 
 	</div>
       
@@ -2302,7 +2344,7 @@
     font-style:italic;
 	font-size:20px;
 ">
-    Last updated: Nov 2025
+    Last updated: Mar 2026
 </div>
 	
 </main>
