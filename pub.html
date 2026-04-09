@@ -238,7 +238,51 @@
 
 <div class="card">
 
+	<div class="pub-item" id="pub-acl-1">
+  <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
 
+   
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+     
+    <img src="Z46.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+   
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+     
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+      RIPRAG: Hack a Black-box Retrieval-Augmented Generation Question-Answering System with Reinforcement Learning
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      Meng Xi, Sihan Lv, Yechen Jin, <strong>Guanjie Cheng</strong>, Naibo Wang, Ying Li, Jianwei Yin
+    </div>
+
+     
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+       Annual Meeting of the Association for Computational Linguistics (ACL), 2026
+    </div>
+
+     
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+   Retrieval-Augmented Generation (RAG) systems based on Large Language Models (LLMs) have become a core technology for tasks such as question-answering (QA) and content generation. RAG poisoning is an attack method to induce LLMs to generate the attacker’s expected text by injecting poisoned documents into the database of RAG systems. Existing research can be broadly divided into two classes: white-box methods and black-box methods. White-box methods utilize gradient information to optimize poisoned documents, and black-box methods use a pre-trained LLM to generate them. However, existing white-box methods require knowledge of the RAG system’s internal composition and implementation details, whereas black-box methods are unable to utilize interactive information. In this work, we propose the RIPRAG attack framework, an end-to-end attack pipeline that treats the target RAG system as a black box and leverages our proposed Reinforcement Learning from Black-box Feedback (RLBF) method to optimize the generation model for poisoned documents. We designed two kinds of rewards: similarity reward and attack reward. Experimental results demonstrate that this method can effectively execute poisoning attacks against most complex RAG systems, achieving an attack success rate (ASR) improvement of up to 0.72 compared to baseline methods. This highlights prevalent deficiencies in current defensive methods and provides critical insights for LLM security research.
+	</div>
+
+     
+
+     
+    <div>
+      <a href="https://BarronCheng.github.io/RIPRAG.pdf" style="color:#004B8D; text-decoration:none;">[Paper]</a>
+       
+    </div>
+
+  </div>
+</div>
+</div>
    
 	<div class="pub-item" id="pub-tc-1">
   <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
@@ -1545,51 +1589,7 @@ Extensive experimental evaluations demonstrate that the BPI framework achieves o
 </div>
 	   
 	
-	   
-	<div class="pub-item">
-  <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
 
-   
-  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
-     
-    <img src="P28.png" alt="" 
-     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
-     onclick="showImage(this.src)">
-  </div>
-
-   
-  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
-
-     
-    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
-      Probability Analysis to Improve the Confidence in Profiling Accuracy
-    </div>
-
-     
-    <div style="margin-bottom:2px;">
-      Yingying Wen, <strong>Guanjie Cheng</strong>, Bo Lin, Jianwei Yin
-    </div>
-
-     
-    <div style="font-style:italic; color:#666; margin-bottom:4px;">
-      Mathematical Problems in Engineering, 2021
-    </div>
-
-     
-    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
-      Performance profiling for the system is necessary and has already been widely supported by hardware performance counters (HPC). HPC is based on the registers to count the number of events in a time interval and uses system interruption to read the number from registers to a recording file. The profiled result approximates the actual running states and is not accurate since the profiling technique uses sampling to capture the states. We do not know the actual running states before, which makes the validation on profiling results complex. Jianwei YinSome experiments-based analysis compared the running results of benchmarks running on different systems to improve the confidence of the profiling technique. But they have not explained why the sampling technique can represent the actual running states. We use the probability theory to prove that the expectation value of events profiled is an unbiased estimation of the actual states, and its variance is small enough. For knowing the actual running states, we design a simulation to generate the running states and get the profiled results. We refer to the applications running on production data centers to choose the parameters for our simulation settings. Comparing the actual running states and the profiled results shows they are similar, which proves our probability analysis is correct and improves our confidence in profiling accuracy.
-    </div>
-
-
-     
-    <div>
-      <a href="https://onlinelibrary.wiley.com/doi/full/10.1155/2021/2341973" style="color:#004B8D; text-decoration:none;">[Paper]</a>
-       
-    </div>
-
-  </div>
-</div>
-</div>
 	</div>
 
 	
