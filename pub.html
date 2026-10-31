@@ -238,7 +238,60 @@
 
 <div class="card">
 
+<div class="pub-item" id="pub-tcc-1">
+  <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
 
+   
+  <div style="flex:0 0 200px; display:flex; align-items:flex-start; justify-content:center;">
+     
+    <img src="images/TCC.png" alt="" 
+     style="max-width:100%; height:auto; border-radius:4px; border:1px solid #e0e0e0; cursor:pointer;"
+     onclick="showImage(this.src)">
+  </div>
+
+   
+  <div style="flex:1; font-size:17px; line-height:1.6; color:#333;">
+
+     
+    <div style="font-size:20px; font-weight:bold; margin-bottom:4px;">
+      From Uniform to Calibration: Priority-Conditioned Differential Privacy for Federated Vehicular Edge Client Selection
+    </div>
+
+     
+    <div style="margin-bottom:2px;">
+      Yishan Chen, Decan Cheng, Mengfan Teng, Runshan Xie, Junxiao Han, <strong>Guanjie Cheng</strong>
+		
+    </div>
+
+     
+    <div style="font-style:italic; color:#666; margin-bottom:4px;">
+    
+	   IEEE Transactions on Cloud Computing (TCC), 2026
+    </div>
+
+     
+    <div style="color:#777; margin-bottom:2px;font-size:15px;text-align: justify; text-justify: inter-word;">
+    Vehicular edge computing reduces transmission latency by moving computing resources closer to vehicles. Federated learning further limits raw-data transmission by enabling local model training and uploading only model updates. However, uploaded updates remain vulnerable to model inversion or membership inference attacks by honest-but-curious servers or external adversaries. Moreover, conventional differential privacy (DP) assigns a uniform privacy budget across tasks, failing to accommodate the diverse priorities and privacy requirements of vehicular applications and potentially degrading model utility for less-sensitive tasks. To address these issues, we propose a client selection and resource allocation strategy integrating federated learning with Vehicular Edge Computing, aiming to reduce system processing latency and energy consumption while preserving the user privacy. First, we formulate the client selection and resource allocation decision problem as a Markov decision process. The formulation considers task completion, latency, energy consumption, and model accuracy, while privacy protection is enforced by priority-conditioned DP. Task priority is used to calibrate the privacy budget of uploaded updates, and Laplace perturbation is applied after update clipping. FL_MADDPG is then used to learn adaptive client selection and resource allocation policies in dynamic vehicular environments. Experiments on multiple datasets show that the proposed framework reduces latency and energy consumption compared with representative DRL baselines while maintaining model utility under differentiated privacy protection.
+	</div>
+
+	 <div style="margin-bottom:2px;">
+  <span style="font-weight:bold;">Keywords:</span>
+  Privacy Preserving, client selection, edge computing, federated learning, personalized differential privacy
+</div>
+
+     
+    <div>
+      <a href="https://BarronCheng.github.io/Certificate/From_Uniform_to_Calibration_Priority-Conditioned_Differential_Privacy_for_Federated_Vehicular_Edge_Client_Selection.pdf" style="color:#004B8D; text-decoration:none;">[Paper]</a>
+       
+    </div>
+
+  </div>
+</div>
+</div>
+
+
+
+	
 
 	<div class="pub-item" id="pub-mm-1">
   <div style="display:flex; gap:18px; padding:14px 0; border-bottom:1px solid #f0f0f0;">
